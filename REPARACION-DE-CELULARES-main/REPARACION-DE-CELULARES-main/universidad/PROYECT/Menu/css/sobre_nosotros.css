@@ -1,0 +1,122 @@
+/* Reset de estilos para asegurar consistencia entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f8f8;
+    margin: 20px; /* Añadido un pequeño margen alrededor del contenido */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Contenedor para todo el contenido */
+#contenido {
+    max-width: 600px; /* Ajusta según tus preferencias */
+    width: 100%;
+}
+
+/* Estilos para la sección de lema */
+#lema {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#lema h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#lema p {
+    font-size: 18px;
+}
+
+/* Estilos para las secciones de MISIÓN y VISIÓN */
+#MISION,
+#VISION {
+    background-color: #23cdf8;
+    padding: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#MISION h2,
+#VISION h2 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#MISION p,
+#VISION p {
+    font-size: 16px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para la sección de imágenes en el pie de página */
+footer .contenedor-imagen {
+    flex-basis: 30%;
+    margin-right: 20px;
+}
+
+footer .contenedor-imagen img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+footer .contenedor-footer {
+    flex-basis: 70%;
+}
+
+h4, p {
+    margin: 0;
+}
+
+.titulo-final {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Ajustes para pantallas más pequeñas */
+@media screen and (max-width: 600px) {
+    #lema,
+    #MISION,
+    #VISION {
+        padding: px;
+    }
+
+    #lema h2,
+    #MISION h2,
+    #VISION h2 {
+        font-size: 20px;
+    }
+
+    #lema p,
+    #MISION p,
+    #VISION p {
+        font-size: 14px;
+    }
+}

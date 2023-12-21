@@ -1,0 +1,47 @@
+/* Reset de estilos para quitar márgenes y rellenos predeterminados */
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Estilos para la sección de inicio */
+#inicio {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Estilos para la sección de servicios */
+#servicios {
+    background-color: #e5e5e5;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para la descripción de servicios */
+p {
+    color: #666;
+}
+
+/* Estilos para las imágenes de servi
